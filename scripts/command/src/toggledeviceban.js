@@ -4,6 +4,7 @@ import { newCommand } from '../handle';
 newCommand({
     name:"toggledeviceban",
     description:"<device name | Desktop | Console | Mobile | View> Toggles a device ban",
+    ownerOnly: true,
     run: (data) => {
         const {player,args} = data;
         

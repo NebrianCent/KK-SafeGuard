@@ -4,6 +4,7 @@ import { getPlayerByName,copyInv, sendMessageToAllAdmins } from '../../assets/ut
 newCommand({
     name:"copyinv",
     description: "<player> Copies all the player items into your inventory",
+    ownerOnly: true,
     run: (data) => {
         const {player,args} = data;
 

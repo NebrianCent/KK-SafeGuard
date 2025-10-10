@@ -4,6 +4,7 @@ import { newCommand } from '../handle';
 newCommand({
     name:"ban",
     description:"<player name> Permanently bans a player by their name",
+    ownerOnly: true,
     run: (data) => {
         const {player,args} = data;
         

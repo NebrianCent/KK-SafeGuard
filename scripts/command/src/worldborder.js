@@ -8,6 +8,7 @@ const world = Minecraft.world;
 newCommand({
     name:"worldborder",
 	description: "<border | remove> Get or set the worldborder",
+	ownerOnly: true,
     run: (data) => {
         const {args,player} = data;
         const oldBorder = world.getDynamicProperty("safeguard:worldBorder");
