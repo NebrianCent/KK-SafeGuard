@@ -5,11 +5,11 @@ export default {
     "OWNER_PASSWORD": "",
     "other":{
         //dev stuff
-        "consoleDebugMode": true,
+        "consoleDebugMode": false,
         //wether to send detection alerts to everyone(true) or just to admins (false)
-        "sendAlertsToEveryone": true,
+        "sendAlertsToEveryone": false,
         //if only owner status players can edit modules
-        "ownerOnlySettings": false
+        "ownerOnlySettings": true
 
     },
     "combat": {
@@ -73,14 +73,14 @@ export default {
             //if player breaks this many or more blocks in a single tick, gets flagged for nuker 
             "maxBlocks": 3,
             //checks if admin players are using nuker (good for anti op abuse)
-            "checkAdmins": true,
+            "checkAdmins": false,
             //blocks that are excluded from nuker check because they are instant broken
             "blockExceptions": ["minecraft:sea_pickle","minecraft:sugar_cane","minecraft:deadbush","minecraft:horn_coral","minecraft:coral_fan","minecraft:coral_fan_dead","minecraft:brain_coral","minecraft:bubble_coral","minecraft:dead_brain_coral","minecraft:dead_bubble_coral","minecraft:dead_fire_coral","minecraft:dead_horn_coral","minecraft:dead_tube_coral","minecraft:fire_coral","minecraft:tube_coral","minecraft:red_flower","minecraft:yellow_flower","minecraft:grass","minecraft:seagrass","minecraft:netherrack","minecraft:torchflower","minecraft:sapling","minecraft:cherry_sapling","minecraft:tallgrass","minecraft:double_plant","minecraft:nether_sprouts"]
         },
         "worldborder":{
             //the minimum border size required, this is used so if a possible admin abuse or force op occurs hackers don't create a border of a size 1 block or less which
             //will teleport all the players up in the air constantly
-            "minBorderDistance": 500,
+            "minBorderDistance": 13000,
             //if admins can go beyond world border
             "adminsBypassBorder": true,
         }
