@@ -12,9 +12,6 @@ newCommand({
         const targetPlayer = getPlayerByName(setNameInvsee);
 
         if(!targetPlayer) return player.sendMessage(`§6[§eSafeGuard§6]§f Player §e${setNameInvsee}§f was not found`);
-        
-        if (targetPlayer.hasAdmin()) {
-            player.sendMessage(`§6[§eSafeGuard§6]§f Can't view the inventory of §e${targetPlayer.name}§f, they're an admin.`);
 		    return;
 		}
         sendMessageToAllAdmins(`§6[§eSafeGuard Notify§6]§e ${player.name} §fviewed the inventory of§e ${targetPlayer.name}! §r`,true);
