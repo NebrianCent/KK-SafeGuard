@@ -5,7 +5,7 @@ export default {
     "OWNER_PASSWORD": "",
     "other":{
         //dev stuff
-        "consoleDebugMode": false,
+        "consoleDebugMode": true,
         //wether to send detection alerts to everyone(true) or just to admins (false)
         "sendAlertsToEveryone": false,
         //if only owner status players can edit modules
