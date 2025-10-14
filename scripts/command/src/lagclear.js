@@ -20,7 +20,8 @@ newCommand({
             type: "xp_orb"
         });
         const entities_monsters = dimension.getEntities({
-            families: ["monster"]
+            families: ["monster"],
+            excludeNames: [""]
         });
         const arrows = dimension.getEntities({
             type: "arrow"
