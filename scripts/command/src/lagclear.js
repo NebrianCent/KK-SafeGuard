@@ -21,7 +21,7 @@ newCommand({
         });
         const entities_monsters = dimension.getEntities({
             families: ["monster"],
-            excludeNames: [""]
+            name: ""
         });
         const arrows = dimension.getEntities({
             type: "arrow"
