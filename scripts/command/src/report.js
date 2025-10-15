@@ -66,7 +66,6 @@ newCommand({
 
             if(tempProperty.includes(player.id)) return player.sendMessage(`§6[§eSafeGuard§6]§f You have already reported this player!`);
             if(reportedPlayer.name === player.name) return player.sendMessage(`§6[§eSafeGuard§6]§f You cannot report yourself!`);
-            if(reportedPlayer.hasAdmin()) return player.sendMessage(`§6[§eSafeGuard§6]§f You cannot report admins.`);
             tempProperty.push(player.id);
             reportedPlayer.setDynamicProperty("safeguard:reports",tempProperty.toString());
             
