@@ -13,11 +13,7 @@ newCommand({
         const targetPlayer = getPlayerByName(setName);
 
         if (!targetPlayer) return player.sendMessage(`§6[§eSafeGuard§6]§f Player §e${setName}§f was not found`);
-
-        if (targetPlayer.hasAdmin()) {
-            player.sendMessage(`§6[§eSafeGuard§6]§f Can't view the warnings of §e${targetPlayer.name}§f, they're an admin.`);
-            return;
-        }
+       
         player.sendMessage(`§6[§eSafeGuard§6]§f ${targetPlayer.name} warnings count:`);
         
         const warnings = targetPlayer.getWarnings(); 
