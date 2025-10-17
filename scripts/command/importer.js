@@ -15,7 +15,7 @@ import "../command/src/notify";
 import "../command/src/worldborder";
 import "../command/src/help";
 import "../command/src/freeze";
-import "../command/src/toggledeviceban";
+
 import "../command/src/version";
 import "../command/src/warn";
 import "../command/src/warnings";
