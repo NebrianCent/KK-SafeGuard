@@ -1,0 +1,4 @@
+figure out how to set user perms through the admin pannel
+
+look into a timed gamemode swap and tp to player for base inspections and tp the executor back putting them in survival
+
