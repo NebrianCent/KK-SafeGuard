@@ -3,7 +3,7 @@
   "header": {
     "name": "§l§eSafe§6Guard §fAntiCheat§r",
     "description": "§l§fMade by §eBlazer#9677 §fV2.0.4\nBeta API §cREQUIRED",
-    "uuid": "81b13565-181a-42ee-abd9-a7bd3cb2dba4",
+    "uuid": "3f8539cd-0da7-4127-a978-4b38338f2637",
     "min_engine_version": [
       1,
       19,
@@ -19,7 +19,7 @@
     {
       "description": "Behavior Pack Module",
       "type": "data",
-      "uuid": "cd2cd41a-1849-410e-8f0a-5d30fde4bd9a",
+      "uuid": "8811ed98-1d04-49a5-acc6-140a22b0dfc7",
       "version": [
         1,
         0,
@@ -31,7 +31,7 @@
       "type": "script",
       "language": "javascript",
       "entry": "scripts/index.js",
-      "uuid": "f626740d-50a6-49f1-a24a-834983b72134",
+      "uuid": "1eace888-3128-4e8d-85e7-da135060a2f0",
       "version": [
         1,
         0,
