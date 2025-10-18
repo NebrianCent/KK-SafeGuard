@@ -350,7 +350,6 @@ export function playerSelectionForm(player,action){
 }
 
 function playerActionForm(player,targetPlayer){
-	if(targetPlayer.hasAdmin()) return player.sendMessage(`§6[§eSafeGuard§6]§r Can't perform actions on §e${targetPlayer.name}§f they're an admin.`);
 
 	const playerActions = ["Ban Player","Kick Player","Warn Player","Freeze Player","Mute Player","View Inventory","Copy Inventory","Unmute Player","Unfreeze Player","Remove All Warnings"];
 
